@@ -4,11 +4,11 @@
   "description": "website for the Signal Processing and Friends event (aka LCAV@25)",
   "main": "index.js",
   "scripts": {
-    "clean": "rm -rf public/*",
+    "clean": "rm -rf dist/*",
     "prebuild": "npm run clean",
     "build": "node build.js",
     "serve": "http-server public",
-    "build:watch": "onchange -i * -e public/* -- npm run build "
+    "build:watch": "onchange -i * -e dist/* -- npm run build "
   },
   "author": "Hugues Devimeux",
   "license": "ISC",

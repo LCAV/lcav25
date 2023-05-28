@@ -2,7 +2,7 @@ const Mustache = require('mustache');
 const fs = require('fs-extra');
 const path = require('path');
 
-const BUILD_DIR = 'public';
+const BUILD_DIR = 'dist';
 
 // Create the build directory if it doesn't exist
 if (!fs.existsSync(BUILD_DIR)) {
