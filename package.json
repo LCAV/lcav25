@@ -1,0 +1,22 @@
+{
+  "name": "lcav",
+  "version": "1.0.0",
+  "description": "website for the Signal Processing and Friends event (aka LCAV@25)",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf public/*",
+    "prebuild": "npm run clean",
+    "build": "node build.js",
+    "serve": "http-server public",
+    "build:watch": "onchange -i * -e public/* -- npm run build "
+  },
+  "author": "Hugues Devimeux",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "http-server": "^14.1.1",
+    "mustache": "^4.2.0",
+    "onchange": "^7.1.0",
+    "watch": "^1.0.2"
+  }
+}

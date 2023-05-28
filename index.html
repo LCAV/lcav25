@@ -237,105 +237,20 @@
         </div>
     </div>
 
-    <div class="container-fluid pt-3">
+    <div class="container">
         <div class="text-center h1">Session 1 : Education</div>
-        <div class="card-slider-wrapper" id="template_session_0">
-            <div class="card-slider">
-                {{ #talks_data }}
-                <div class="card-slider-cell card-slider-cell-lg">
-                    <div href="#" class="card link-trapeze-horizontal" itemscope=""
-                         itemtype="https://schema.org/NewsArticle">
-                        <div class="card-body">
-                            <h3 class="card-title" itemprop="name">{{talk_title}}</h3>
-                            <div class="card-info">
-                                <span class="card-info-date" itemprop="datePublished"
-                                      content="2017-09-11T12:00">DATE</span>
-                                <span itemprop="about">Recherche</span>
-                                <span itemprop="about">Prix et récompenses</span>
-                            </div>
-                            <p itemprop="description">{{talk_description}}</p>
-                        </div>
-                        <div class="card-footer text-muted d-flex">
-                            <img class="rounded-circle img-thumbnail img-fluid w-25 align-self-start mt-3" alt="avatar1"
-                                 style="min-width: 120px; min-height: 120px; max-width: 120px; max-height: 120px; object-fit: cover"
-                                 src=""/>
-                            <div class="p-3">
-                                <div><b>{{talker_name}}</b></div>
-                                <div>{{talker_bio}}</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {{/talks_data }}
-            </div>
-            <div class="card-slider-footer d-flex justify-content-center">
-                <div>
-                    <button role="button" id="card-slider-prev"
-                            class="card-slider-btn link-trapeze-horizontal disabled">
-                        <svg class="icon" aria-hidden="true">
-                            <use xlink:href="#icon-chevron-left"></use>
-                        </svg>
-                    </button>
-                    <button role="button" id="card-slider-next" class="card-slider-btn link-trapeze-horizontal">
-                        <svg class="icon" aria-hidden="true">
-                            <use xlink:href="#icon-chevron-right"></use>
-                        </svg>
-                    </button>
-                </div>
-            </div>
-        </div>
-
-
+            {{#section_1_talks}}
+            {{{card_talk}}}
+            {{/section_1_talks}}
     </div>
 
-    <div class="container-fluid pt-3">
+    <div class="container">
         <div class="text-center h1">Session 2 : Research</div>
-        <div class="card-slider-wrapper" id="template_session_1">
-            <div class="card-slider">
-                {{ #talks_data }}
-                <div class="card-slider-cell card-slider-cell-lg">
-                    <div href="#" class="card link-trapeze-horizontal" itemscope=""
-                         itemtype="https://schema.org/NewsArticle">
-                        <div class="card-body">
-                            <h3 class="card-title" itemprop="name">{{talk_title}}</h3>
-                            <div class="card-info">
-                                <span class="card-info-date" itemprop="datePublished"
-                                      content="2017-09-11T12:00">DATE</span>
-                                <span itemprop="about">Recherche</span>
-                                <span itemprop="about">Prix et récompenses</span>
-                            </div>
-                            <p itemprop="description">{{talk_description}}</p>
-                        </div>
-                        <div class="card-footer text-muted d-flex">
-                            <img class="rounded-circle img-thumbnail img-fluid w-25 align-self-start mt-3" alt="avatar1"
-                                 src="assets/images/patrick.jpg"
-                                 style="min-width: 120px; min-height: 120px; max-width: 120px; max-height: 120px; object-fit: cover"/>
-                            <div class="p-3">
-                                <div><b>{{talker_name}}</b></div>
-                                <div>{{talker_bio}}</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {{/talks_data }}
-            </div>
-            <div class="card-slider-footer d-flex justify-content-center">
-                <div>
-                    <button role="button" id="card-slider-prev"
-                            class="card-slider-btn link-trapeze-horizontal disabled">
-                        <svg class="icon" aria-hidden="true">
-                            <use xlink:href="#icon-chevron-left"></use>
-                        </svg>
-                    </button>
-                    <button role="button" id="card-slider-next" class="card-slider-btn link-trapeze-horizontal">
-                        <svg class="icon" aria-hidden="true">
-                            <use xlink:href="#icon-chevron-right"></use>
-                        </svg>
-                    </button>
-                </div>
-            </div>
-        </div>
+        {{#section_2_talks}}
+            {{{card_talk}}}
+        {{/section_2_talks}}
     </div>
+
     <!--    Footer-->
     <div class="bg-gray-100 pt-5">
         <div class="container">
@@ -440,9 +355,6 @@
         </div>
     </div>
 </div>
-<!--Mustache stuff-->
-<script src="https://unpkg.com/mustache@latest"></script>
-<script type="module" src="mustache_renderer.js"></script>
 
 <!-- jQuery through CDN is not already present -->
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
