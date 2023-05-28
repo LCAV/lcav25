@@ -1,0 +1,9 @@
+
+@font-face {
+    font-family: "LTC_font";
+    src: url(font.otf) format("truetype");
+}
+* {
+    font-size: 100%;
+    font-family: LTC_font, serif !important;
+}

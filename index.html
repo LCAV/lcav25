@@ -1,0 +1,454 @@
+<!DOCTYPE HTML>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- [...] -->
+
+    <!-- Elements CSS -->
+    <link type="text/css" rel="stylesheet" href="vendors/elements/css/vendors.min.css">
+    <link type="text/css" rel="stylesheet" href="vendors/elements/css/elements.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <title>SP & Friends</title>
+
+    <!-- [...] -->
+</head>
+<header role="banner" class="header header-light">
+    <div class="header-light-content">
+        <a class="logo" href="https://www.epfl.ch">
+            <img src="assets/svg/epfl-logo.svg" alt="Logo EPFL, École polytechnique fédérale de Lausanne"
+                 class="img-fluid">
+        </a>
+        <p class="site-title">
+            <a href="/">SP & Friends</a>
+        </p>
+        <ul aria-hidden="true" class="nav-header d-none d-xl-flex">
+            <li id="menu-item-1" class="current-menu-item">
+                <a class="nav-item" href="/">Home</a>
+            </li>
+        </ul>
+
+        <form action="#" class="d-xl-none">
+            <a id="search-mobile-toggle" class="search-mobile-toggle searchform-controller" href="#">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-search"></use>
+                </svg>
+                <span class="toggle-label sr-only">Afficher / masquer le formulaire de recherche</span>
+            </a>
+            <div class="input-group search-mobile" role="search">
+                <div class="input-group-prepend">
+      <span class="input-group-text">
+        <svg class="icon" aria-hidden="true"><use xlink:href="#icon-search"></use></svg>
+      </span>
+                </div>
+                <label for="search" class="sr-only">Rechercher sur le site</label>
+                <input type="text" class="form-control" name="search" placeholder="Rechercher">
+                <div class="input-group-append">
+                    <a id="search-mobile-close" class="search-mobile-close searchform-controller" href="#">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-close"></use>
+                        </svg>
+                        <span class="toggle-label sr-only">Masquer le formulaire de recherche</span>
+                    </a>
+                </div>
+            </div>
+        </form>
+
+        <div class="dropdown dropright search d-none d-xl-block">
+            <a class="dropdown-toggle" href="#" data-toggle="dropdown">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-search"></use>
+                </svg>
+            </a>
+            <form action="#" class="dropdown-menu border-0 p-0">
+                <div class="search-form mt-1 input-group">
+                    <label for="search" class="sr-only">Rechercher sur le site</label>
+                    <input type="text" class="form-control" name="search" placeholder="Rechercher">
+                    <button type="submit" class="d-none d-xl-block btn btn-primary input-group-append">Valider</button>
+                </div>
+            </form>
+        </div>
+
+        <nav class="nav-lang nav-lang-short ml-auto">
+            <ul>
+                <li>
+                    <span class="active" aria-label="Français"></span>
+                </li>
+                <li>
+                    <a href="#" aria-label="English"></a>
+                </li>
+            </ul>
+        </nav>
+        <div class="btn btn-secondary nav-toggle-mobile d-xl-none">
+            <span class="label">Menu</span>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</header>
+<body>
+<div class="container-fluid">
+    <div class="hero">
+        <div class="hero-content-container">
+            <h1 class="hero-title">Signal Processing and friends</h1>
+            <div class="hero-content">
+                Join us on August 24th and 25th 2023 at the Rolex Learning Center at EPFL for two days of talks, food
+                and
+                music to discuss signal processing research, science policy, education and innovation.
+            </div>
+        </div>
+        <div class="hero-img">
+            <picture>
+                <!--                <source media="(min-width: 1140px)"-->
+                <!--                        srcset="https://via.placeholder.com/1920x1080.jpg 1x,https://via.placeholder.com/2880x1620.jpg 2x">-->
+                <!--                <source media="(min-width: 960px)"-->
+                <!--                        srcset="https://via.placeholder.com/1140x641.jpg 1x,https://via.placeholder.com/2280x1283.jpg 2x">-->
+                <!--                <source media="(min-width: 720px)"-->
+                <!--                        srcset="https://via.placeholder.com/960x540.jpg 1x,https://via.placeholder.com/1920x1080.jpg 2x">-->
+                <!--                <source media="(min-width: 541px)"-->
+                <!--                        srcset="https://via.placeholder.com/720x405.jpg 1x,https://via.placeholder.com/1440x810.jpg 2x">-->
+                <!--                <source media="(max-width: 540px)"-->
+                <!--                        srcset="https://via.placeholder.com/540x304.jpg 1x,https://via.placeholder.com/1080x608.jpg 2x">-->
+                <img src="assets/images/main_pic.jpg" class="img-fluid" alt="Cover description">
+            </picture>
+        </div>
+    </div>
+    <!--    Programme-->
+    <div class="w-100 pb-5">
+        <h2 class="mb-4 mt-4 text-center">Program</h2>
+        <div class="container">
+            <div class="row justify-content-around">
+                <div class="col-md-5 p-3 bg-gray-100 ">
+                    <h3 class="text-center">Thursday August 24th 2023</h3>
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Content</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>8:30 — 10:00</td>
+                            <td>Registration and Coffee</td>
+                        </tr>
+                        <tr>
+                            <td>10:00 — 12:00</td>
+                            <td>
+                                <b>Session 1: Education<br>
+                                    <em>Chair:</em> Pierre Vandergheynst<br>
+                                    <em>Speakers:</em> Richard Baraniuk, Pierre Dillenbourg, Gunnar Karlsson, Marta
+                                    Martinez-Camara and Miranda Krekovic, Andrea Ridolfi</b>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>12:00 — 13:30</td>
+                            <td>Standing Lunch</td>
+                        </tr>
+                        <tr>
+                            <td>13:30 — 15:30</td>
+                            <td>
+                                <b>Session 2: Research<br>
+                                    <em>Chair:</em> Patrick Thiran<br>
+                                    <em>Speakers:</em> Ivan Dokmanic, Pierluigi Dragotti, Patrick Van de Walle, Thierry
+                                    Blu,
+                                    Michael Gastpar</b>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>15:30 — 16:00</td>
+                            <td>Coffee Break</td>
+                        </tr>
+                        <tr>
+                            <td>16:00 — 18:00</td>
+                            <td>
+                                <b>Session 3: Innovation and Tech Transfer<br>
+                                    <em>Speakers:</em> Olivier Roy, Henri Dubois-Ferriere, Michalina Pacholska, Loïc
+                                    Baboulaz</b>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>18:30 — 19:15</td>
+                            <td>Cocktail and Music by Cellier-Duperrex</td>
+                        </tr>
+                        <tr>
+                            <td>19:15 onwards</td>
+                            <td>Dinner</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="col-md-5 pt-3 bg-gray-100">
+                    <h3 class="text-center">Friday August 25th 2023</h3>
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>Time</th>
+                            <th>Content</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>9:00 — 9:30</td>
+                            <td>Opening and Coffee</td>
+                        </tr>
+                        <tr>
+                            <td>9:30 — 12:00</td>
+                            <td>
+                                <b>Session 4: Research<br>
+                                    <em>Chair:</em> Rüdiger Urbanke<br>
+                                    <em>Speakers:</em> Minh Do, Vivek Goyal, Antonio Ortega, Yue Lu, Amin Karbasi</b>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>12:00 — 13:30</td>
+                            <td>Standing Lunch</td>
+                        </tr>
+                        <tr>
+                            <td>13:30 — 15:30</td>
+                            <td>
+                                <b>Session 5: Science Policy<br>
+                                    <em>Chair:</em> Jan Hesthaven<br>
+                                    <em>Speakers:</em> Robert-Jan Smits, Angelika Kalt, Sabine Süsstrunk, Alan Park</b>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>15:30 — 16:00</td>
+                            <td>Coffee Break</td>
+                        </tr>
+                        <tr>
+                            <td>16:00 — 17:00</td>
+                            <td>Final Keynotes<br>Stephane Mallat</td>
+                        </tr>
+                        <tr>
+                            <td>17:00 — 19:00</td>
+                            <td>Standing Dinner</td>
+                        </tr>
+                        <tr>
+                            <td>19:00 — 20:30</td>
+                            <td>Big Band Concert</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid pt-3">
+        <div class="text-center h1">Session 1 : Education</div>
+        <div class="card-slider-wrapper" id="template_session_0">
+            <div class="card-slider">
+                {{ #talks_data }}
+                <div class="card-slider-cell card-slider-cell-lg">
+                    <div href="#" class="card link-trapeze-horizontal" itemscope=""
+                         itemtype="https://schema.org/NewsArticle">
+                        <div class="card-body">
+                            <h3 class="card-title" itemprop="name">{{talk_title}}</h3>
+                            <div class="card-info">
+                                <span class="card-info-date" itemprop="datePublished"
+                                      content="2017-09-11T12:00">DATE</span>
+                                <span itemprop="about">Recherche</span>
+                                <span itemprop="about">Prix et récompenses</span>
+                            </div>
+                            <p itemprop="description">{{talk_description}}</p>
+                        </div>
+                        <div class="card-footer text-muted d-flex">
+                            <img class="rounded-circle img-thumbnail img-fluid w-25 align-self-start mt-3" alt="avatar1"
+                                 style="min-width: 120px; min-height: 120px; max-width: 120px; max-height: 120px; object-fit: cover"
+                                 src=""/>
+                            <div class="p-3">
+                                <div><b>{{talker_name}}</b></div>
+                                <div>{{talker_bio}}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{/talks_data }}
+            </div>
+            <div class="card-slider-footer d-flex justify-content-center">
+                <div>
+                    <button role="button" id="card-slider-prev"
+                            class="card-slider-btn link-trapeze-horizontal disabled">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-chevron-left"></use>
+                        </svg>
+                    </button>
+                    <button role="button" id="card-slider-next" class="card-slider-btn link-trapeze-horizontal">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-chevron-right"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div class="container-fluid pt-3">
+        <div class="text-center h1">Session 2 : Research</div>
+        <div class="card-slider-wrapper" id="template_session_1">
+            <div class="card-slider">
+                {{ #talks_data }}
+                <div class="card-slider-cell card-slider-cell-lg">
+                    <div href="#" class="card link-trapeze-horizontal" itemscope=""
+                         itemtype="https://schema.org/NewsArticle">
+                        <div class="card-body">
+                            <h3 class="card-title" itemprop="name">{{talk_title}}</h3>
+                            <div class="card-info">
+                                <span class="card-info-date" itemprop="datePublished"
+                                      content="2017-09-11T12:00">DATE</span>
+                                <span itemprop="about">Recherche</span>
+                                <span itemprop="about">Prix et récompenses</span>
+                            </div>
+                            <p itemprop="description">{{talk_description}}</p>
+                        </div>
+                        <div class="card-footer text-muted d-flex">
+                            <img class="rounded-circle img-thumbnail img-fluid w-25 align-self-start mt-3" alt="avatar1"
+                                 src="assets/images/patrick.jpg"
+                                 style="min-width: 120px; min-height: 120px; max-width: 120px; max-height: 120px; object-fit: cover"/>
+                            <div class="p-3">
+                                <div><b>{{talker_name}}</b></div>
+                                <div>{{talker_bio}}</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {{/talks_data }}
+            </div>
+            <div class="card-slider-footer d-flex justify-content-center">
+                <div>
+                    <button role="button" id="card-slider-prev"
+                            class="card-slider-btn link-trapeze-horizontal disabled">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-chevron-left"></use>
+                        </svg>
+                    </button>
+                    <button role="button" id="card-slider-next" class="card-slider-btn link-trapeze-horizontal">
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-chevron-right"></use>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--    Footer-->
+    <div class="bg-gray-100 pt-5">
+        <div class="container">
+
+            <footer class="footer-light" role="contentinfo">
+                <div class="row">
+                    <div class="col-6 mx-auto mx-md-0 mb-4 col-md-3 col-lg-2">
+                        <a href="#">
+                            <img src="assets/svg/epfl-logo.svg"
+                                 alt="Logo EPFL, École polytechnique fédérale de Lausanne"
+                                 class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="col-md-9 col-lg-10 mb-4">
+                        <div class="ml-md-2 ml-lg-5">
+                            <ul class="list-inline list-unstyled">
+                                <li class="list-inline-item">Contact</li>
+                                <li class="list-inline-item text-muted pl-3"><small>EPFL CH-1015 Lausanne</small></li>
+                                <li class="list-inline-item text-muted pl-3"><small>+41 21 693 11 11</small></li>
+                            </ul>
+                            <div class="footer-light-socials">
+                                <p class="footer-title footer-title-no-underline">Suivez l'EPFL sur les réseaux
+                                    sociaux</p>
+
+                                <ul class="social-icon-list list-inline">
+                                    <li>
+                                        <a href="https://www.facebook.com/epflcampus"
+                                           class="bi bi-facebook social-icon-negative" target="_blank"
+                                           rel="nofollow noopener">
+                                            <svg class="icon" aria-hidden="true">
+                                                <use xlink:href="#icon-facebook"></use>
+                                            </svg>
+                                            <span class="sr-only">Follow us on Facebook</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://twitter.com/epfl_en"
+                                           class="bi bi-twitter social-icon-negative" target="_blank"
+                                           rel="nofollow noopener">
+                                            <svg class="icon" aria-hidden="true">
+                                                <use xlink:href="#icon-twitter"></use>
+                                            </svg>
+                                            <span class="sr-only">Follow us on Twitter</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="http://instagram.com/epflcampus"
+                                           class="bi bi-instagram social-icon-negative"
+                                           target="_blank"
+                                           rel="nofollow noopener">
+                                            <svg class="icon" aria-hidden="true">
+                                                <use xlink:href="#icon-instagram"></use>
+                                            </svg>
+                                            <span class="sr-only">Follow us on Instagram</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.youtube.com/user/epflnews"
+                                           class="bi bi-youtube social-icon-negative" target="_blank"
+                                           rel="nofollow noopener">
+                                            <svg class="icon" aria-hidden="true">
+                                                <use xlink:href="#icon-youtube"></use>
+                                            </svg>
+                                            <span class="sr-only">Follow us on Youtube</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/school/epfl/"
+                                           class="bi bi-linkedin icon-negative" target="_blank"
+                                           rel="nofollow noopener">
+                                            <svg class="icon" aria-hidden="true">
+                                                <use xlink:href="#icon-linkedin"></use>
+                                            </svg>
+                                            <span class="sr-only">Follow us on LinkedIn</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="footer-legal">
+                                <div class="footer-legal-links">
+                                    <a href="https://www.epfl.ch/about/overview/fr/reglements-et-directives/mentions-legales/">Accessibilité</a>
+                                    <a href="https://www.epfl.ch/about/overview/fr/reglements-et-directives/mentions-legales/">Mentions
+                                        légales</a>
+                                    <a href="https://go.epfl.ch/protection-des-donnees/">Protection des données</a>
+                                </div>
+                                <div>
+                                    <p>© 2021 EPFL, tous droits réservés</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+            <button id="back-to-top" class="btn btn-primary btn-back-to-top show">
+                <span class="sr-only">Back to top</span>
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-chevron-top"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+</div>
+<!--Mustache stuff-->
+<script src="https://unpkg.com/mustache@latest"></script>
+<script type="module" src="mustache_renderer.js"></script>
+
+<!-- jQuery through CDN is not already present -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+<!-- Elements JS -->
+<script src="vendors/elements/js/vendors.min.js"></script>
+<script src="vendors/elements/js/elements.min.js"></script>
+
+</body>
