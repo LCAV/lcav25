@@ -25,8 +25,8 @@ function renderSection(talks_ids) {
 
 let rendered_index = Mustache.render(index_template,
     {
-        "section_1_talks": renderSection([0, 1]).map(e => ({"card_talk": e})),
-        "section_2_talks": renderSection([2]).map(e => ({"card_talk": e})),
+        "section_1_talks": renderSection([0, 1, 2, 3, 4]).map(e => ({"card_talk": e})),
+        // "section_2_talks": renderSection([2, 3]).map(e => ({"card_talk": e})),
     }
 )
 
