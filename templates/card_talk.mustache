@@ -5,6 +5,7 @@
             <div class="text-uppercase text-truncate">{{talker_name}} : {{talk_title}}</div>
         </a>
     </h5>
+
     <div id="collapse-collapsed{{id}}" class="collapse" aria-labelledby="heading-collapsed">
         <div href="#" class="card link-trapeze-horizontal" itemscope="">
             <div class="card-body">
@@ -17,9 +18,9 @@
                 </div>
                 <p itemprop="description">{{talk_description}}</p>
             </div>
-            <div class="card-footer text-muted d-flex">
-                <img class="rounded-circle img-thumbnail img-fluid w-25 align-self-start mt-3" alt="avatar1"
-                     style="min-width: 120px; min-height: 120px; max-width: 120px; max-height: 120px; object-fit: cover"
+            <div class="card-footer text-muted">
+                <img class="float-left m-3 rounded-circle img-thumbnail img-fluid w-25 align-self-start mt-3" alt="avatar1"
+                     style="min-width: 120px; min-height: 120px; max-width: 120px; max-height: 120px; object-fit: cover; shape-outside: circle()"
                      src="{{talker_image_path}}"/>
                 <div class="p-3">
                     <div><b>{{talker_name}}</b></div>
