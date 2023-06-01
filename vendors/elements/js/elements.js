@@ -8790,7 +8790,7 @@ jQuery.fn.extend({
     nav_main();
     drawer_drawer();
     breadcrumb();
-    cookie_consent();
+    // cookie_consent();
     back_to_top_button();
     range();
     restauration();
