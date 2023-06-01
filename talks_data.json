@@ -22,5 +22,21 @@
     "talker_name": "Patrick Vandewalle",
     "talker_bio": "Patrick Vandewalle received a MSc degree in electrical engineering from KU Leuven (2001), and a PhD degree from EPFL on super-resolution imaging (2006). From 2007 to 2018, he worked at Philips Research as a senior research scientist. He is now an associate professor at KU Leuven. His current research focuses on 3D processing, reconstruction, computer vision and AR/VR.",
     "talker_image_path": "assets/images/patrick.jpg"
+  },
+  {
+    "id": 3,
+    "talk_title": "Delicious problems, serious gadgets",
+    "talk_description": "When doing research in education, it takes a few months to identify an interesting problem, one that can be tackled with local interventions. I will present 10 problems and the digital solutions we built, one problem and one solution per minute (dual eye tracking, learning analytics, interactive furniture, tangible interfaces, swarm robotic,  AR/VR). Some of these solutions may appear as gadgets but they have been tested in school contexts through formal experiments. While many tools can be described as innovative, the starting point has not been a quest for innovation. However, when teachers spontaneously state « I did not know one could do that », it means the project will have impact beyond the product and the publications.",
+    "talker_name": "Pierre Dillenbourg",
+    "talker_bio": "Pierre Dillenbourg is professor of learning technologies at EPFL.  A former teacher in elementary school, Pierre Dillenbourg continued with master in education during which he applied machine learning to an EdTech system (1986).  He obtained a PhD in computer science from the University of Lancaster (UK), in AI for education. He joined EPFL in 2002. With EPFL colleagues, he launched in 2017 the Swiss EdTech Collider, an incubator with more than 100 start-ups in learning technologies, as well as the EPFL Center of Learning Sciences. He is a fellow of the International Society for Learning Sciences. He currently is the Associate Vice-President for Education at EPFL.",
+    "talker_image_path": "assets/images/dillenbourg.jpg"
+  },
+  {
+    "id": 4,
+    "talk_title": "ARTMYN - bringing new digitization solutions to the art world",
+    "talk_description": "For decades, representing a physical artwork on a screen simply came down to showing its photograph which greatly reduces its true materiality and visual richness. In 2012, the eFacsimile research project tackled the problem of how to capture and represent faithfully on digital screens the complicated nature of a physical work of art. This then led to the creation of ARTMYN, a technology company that provides unique solutions for digitizing visual artworks. From custom imaging hardware to advanced imaging algorithms and latest web visualization applications, ARTMYN brings the most advanced digital experience to the art world.",
+    "talker_name": "Dr. Loïc Baboulaz",
+    "talker_bio": "Dr. Loïc Baboulaz is the CTO and co-founder of ARTMYN, a company specialised in high-fidelity, high-resolution and multimodal digitization of visual artworks. From 2012 to 2016, he co-led the e-facsimile project, a Google focused research award at EPFL. Loïc Baboulaz holds a PhD in Image Processing from Imperial College London.",
+    "talker_image_path": "assets/images/bamboulaz.png"
   }
 ]
