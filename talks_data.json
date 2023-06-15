@@ -19,8 +19,8 @@
     "id": 2,
     "talk_title": "From super-resolution to occlusion inpainting - a story of filling missing pixels",
     "talk_description": "This talk will cover several methods to estimate missing pixel information. First, I will discuss super-resolution imaging, where the goal is to interpolate intermediate pixels to generate a higher resolution image. Next, we shift our attention to 3D, adding depth information to images. That enables us to create novel views from a different perspective, allowing a viewer to perceive images in 3D. However, novel view synthesis brings new pixels to be filled in: occlusion areas. Occlusion inpainting is the technique to fill in areas of pixels that were invisible from the original point of view. This results in more naturally perceived 3D images.",
-    "talker_name": "Patrick Vandewalle",
-    "talker_bio": "Patrick Vandewalle received a MSc degree in electrical engineering from KU Leuven (2001), and a PhD degree from EPFL on super-resolution imaging (2006). From 2007 to 2018, he worked at Philips Research as a senior research scientist. He is now an associate professor at KU Leuven. His current research focuses on 3D processing, reconstruction, computer vision and AR/VR.",
+    "talker_name": "Patrick Van de Walle",
+    "talker_bio": "Patrick Van de Walle received a MSc degree in electrical engineering from KU Leuven (2001), and a PhD degree from EPFL on super-resolution imaging (2006). From 2007 to 2018, he worked at Philips Research as a senior research scientist. He is now an associate professor at KU Leuven. His current research focuses on 3D processing, reconstruction, computer vision and AR/VR.",
     "talker_image_path": "assets/images/patrick.jpg"
   },
   {
@@ -35,8 +35,48 @@
     "id": 4,
     "talk_title": "ARTMYN - bringing new digitization solutions to the art world",
     "talk_description": "For decades, representing a physical artwork on a screen simply came down to showing its photograph which greatly reduces its true materiality and visual richness. In 2012, the eFacsimile research project tackled the problem of how to capture and represent faithfully on digital screens the complicated nature of a physical work of art. This then led to the creation of ARTMYN, a technology company that provides unique solutions for digitizing visual artworks. From custom imaging hardware to advanced imaging algorithms and latest web visualization applications, ARTMYN brings the most advanced digital experience to the art world.",
-    "talker_name": "Dr. Loïc Baboulaz",
+    "talker_name": "Loïc Baboulaz",
     "talker_bio": "Dr. Loïc Baboulaz is the CTO and co-founder of ARTMYN, a company specialised in high-fidelity, high-resolution and multimodal digitization of visual artworks. From 2012 to 2016, he co-led the e-facsimile project, a Google focused research award at EPFL. Loïc Baboulaz holds a PhD in Image Processing from Imperial College London.",
     "talker_image_path": "assets/images/bamboulaz.png"
+  },
+  {
+    "id": 5,
+    "talk_title": "Ultrasound Tomography for Early Breast Cancer Detection: A Decade-Long Journey from the Laboratory to the Clinic",
+    "talk_description": "SoftVue is a 3D whole breast ultrasound tomography imaging device recently cleared by the FDA as an adjunct screen modality to mammograph for women with dense breasts. SoftVue is radiation free, operator independent, and does not involve breast compression. For the target population, it has been shown to increase both sensitivity and specificity, hence detecting more cancers at an early stage while decreasing call backs. In this talk, I will present an overview of the technology, and discuss the many technical, clinical, and operational challenges that we have faced on our long journey to bring this medical innovation to the market.",
+    "talker_name": "Olivier Roy",
+    "talker_bio": "Olivier Roy is a founding member of Delphinus Medical Technologies and its Vice President of Engineering. He leads all technical aspects of the SoftVue development and has been instrumental in converting fundamental research results into medical device innovations driving clinical success and company growth. Prior to joining Delphinus, Dr. Roy was a post-doctoral fellow at the Karmanos Cancer Institute where he designed some of the foundational imaging techniques used in the SoftVue system. He received his Bachelor’s and Master’s Degrees in Communication Systems, and his PhD Degree in Signal Processing at the Swiss Federal Institute of Technology, Lausanne, Switzerland. Dr. Roy has published numerous peer-reviewed conference proceedings, journal papers, and book chapters in the area of signal processing, distributed source coding, beamforming, and ultrasound tomography. He holds several patents related to the SoftVue technology and other medical device innovations.",
+    "talker_image_path": "assets/images/olivier_roy.jpg"
+  },
+  {
+    "id": 6,
+    "talk_title": "The 10 things that keep the Presidents of European universities awake at night",
+    "talk_description": "Europe’s universities are going through turbulent times. Governments are demanding knowledge security, less internationalization and greater national impact. Students want more democratic processes as well as a greater focus on sustainability and student well being. And if this wasn’t enough, AI and notably ChatGPT are stirring up things big time. No wonder, university Presidents are finding it hard to get their 8 hours of sleep at night.",
+    "talker_name": "Robert-Jan Smits",
+    "talker_bio": "Robert-Jan Smits is the President of the Eindhoven University of Technology (since May 2019). Prior to this, he was the Director-General of Research and Innovation at the European Commission (2010-2018). In this capacity he was the architect of Horizon 2020, the 80 billion EU Research and Innovation program. Smits has also been instrumental in shaping the successor program Horizon Europe (budget: 95 billion). In his last year in Brussels, Robert-Jan Smits was the Open Access Envoy of the European Commission and developed concrete policy proposals aimed to ensure that all academic publications resulting from publicly funded research are widely available and accessible through Open Access. Smits has received several recognitions and awards for his contribution to European science and innovation. He received the Academy Medal of the Royal Dutch Academy, the Excellence in Global Science Award in South Africa, the Medal of Honour of the KU Leuven. He holds an honorary degree from Edinburgh University, is a honorary member of Academia Europaea and is a Fellow of the International Science Council.",
+    "talker_image_path": "assets/images/smits.jpg"
+  },
+  {
+    "id": 7,
+    "talk_title": "Absorb or be absorbed by machine learning: the fate of signal processing",
+    "talk_description": "Compression, communication, detection, inverse problems, source separation: all pet problems of signal processing are invaded by machine learning. Better solutions seem to emerge from stochastic gradient descent in deep networks than from beautifully crafted algorithms. Will hardware be the ultimate retreat of signal processing? Why not being megalomaniac and try to absorb machine learning? Learning is about discovering structures, which is at the core of information theory and harmonic analysis. Entropy, scale separation, random coding, sparsity are conceptual pillars of learning. Still lots to do for signal processing and friends.",
+    "talker_name": "Stéphane Mallat",
+    "talker_bio": "Stéphane Mallat is an applied mathematician, Professor at the Collège de France on the chair of Data Sciences. He is a member of the French Academy of Sciences, and a foreign member of the US National Academy of Engineering. He was a Professor at the Courant Institute of NYU, at Ecole Polytechnique and Ecole Normale Supérieure in Paris. He also was a co-founder and CEO of a semiconductor start-up company. His research interests include machine learning, signal processing, and harmonic analysis.",
+    "talker_image_path": "assets/images/mallat.jpg"
+  },
+  {
+    "id": 8,
+    "talk_title": "Were we sleeping at the wheel? How AI took over signal processing",
+    "talk_description": "In this talk, I will briefly look at key achievements of signal processing research that I have witnessed over the past 25 years. These achievements range from the utilization of wavelets for image compression to the emergence of sparse signal processing and compressive sensing. Additionally, I will discuss how these findings have been overshadowed by the recent surge of data-driven methods. Specifically, I will focus on the lifting scheme and its evolution from a tool in wavelet construction to becoming the fundamental building block for invertible neural networks. This discussion will inspire a reflection on how to integrate theoretical findings in signal processing with machine learning. Within this context, I will explore applications in computational imaging, including neuroscience and art investigation.",
+    "talker_name": "Pier Luigi Dragotti",
+    "talker_bio": "Pier Luigi Dragotti received the Laurea degree in electronic engineering from the University of Naples Federico II, Naples, Italy, in 1997, and the Ph.D. degree from the Swiss Federal Institute of Technology of Lausanne (EPFL), Switzerland in 2002. He is currently Professor of signal processing with the Department of Electrical and Electronic Engineering at Imperial College London. His research interests include sampling theory and its applications, computational imaging, and sparsity-driven signal processing.\n\nDragotti is a Fellow of the IEEE and was also an IEEE SPS Distinguished Lecturer (2021-22), the Editor-in-Chief of the IEEE TRANSACTIONS ON SIGNAL PROCESSING (2018–2020) and an Associate Editor of the IEEE TRANSACTIONS ON IMAGE PROCESSING from 2006 to 2009.",
+    "talker_image_path": "assets/images/dragotti.jpg"
+  },
+  {
+    "id": 9,
+    "talk_title": "Lippmann Photography: from museum to the lab and back",
+    "talk_description": "In 1908, Gabriel Lippmann received a Nobel Prize in Physics for his invention of interference-based colour photography. Yet, we now use three-colour photography and Lippmann Photographs, the first hyperspectral images, can be found only in museums. Why?\n\nIn this talk, I will present work done by a large team consisting of researchers from LCAV and Galatea and curators from museum Photo Elysée. I will explain the history and the principle behind Lippmann Photography and show how colour distortions in Lippmann plates can be explained via signal processing phenomena.\n\nI will also talk about our attempts to make Lippmann Photography available to the general public: by printing digital Lippmann photographs and by helping Photo Elysée showcase the historical plates.",
+    "talker_name": "Michalina Pacholska",
+    "talker_bio": "Michalina Pacholska is a research scientist with a short attention span. She holds a Master's degree in Mathematics (2016) with a specialization in topology and set theory and a PhD in computer and communication sciences (2021, at LCAV, of course). Her thesis, titled \"Sampling Geometry and Colour\" covers two areas: unorthodox sampling methods for localization and Lippmann Photography. Her most cited publication is in computational biology. After her PhD, she worked at Improbable on agent-based models and now joined a startup Cosimmetry intending to improve decision-making with tech.\n\nMichalina loves working with interdisciplinary teams at the boundaries of sciences. She also enjoys reading and creating webcomics and playing cooperative board games.",
+    "talker_image_path": "assets/images/pacholska.jpg"
   }
 ]
