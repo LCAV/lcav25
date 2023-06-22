@@ -78,5 +78,53 @@
     "talker_name": "Michalina Pacholska",
     "talker_bio": "Michalina Pacholska is a research scientist with a short attention span. She holds a Master's degree in Mathematics (2016) with a specialization in topology and set theory and a PhD in computer and communication sciences (2021, at LCAV, of course). Her thesis, titled \"Sampling Geometry and Colour\" covers two areas: unorthodox sampling methods for localization and Lippmann Photography. Her most cited publication is in computational biology. After her PhD, she worked at Improbable on agent-based models and now joined a startup Cosimmetry intending to improve decision-making with tech.\n\nMichalina loves working with interdisciplinary teams at the boundaries of sciences. She also enjoys reading and creating webcomics and playing cooperative board games.",
     "talker_image_path": "assets/images/pacholska.jpg"
+  },
+  {
+    "id": 10,
+    "talk_title": "Tu quoque, Ivane, fili mi?",
+    "talk_description": "An Lcaviste who flirts with non-anthropoid intelligence may experience a unique sense of shame. But there is a prize for the shameless. I will talk about (possible) examples in hearing shapes of planets, understanding the mechanics of graph neural networks, and learning to extrapolate analog models of the world from digital signals.",
+    "talker_name": "Ivan Dokmanić",
+    "talker_bio": "Ivan Dokmanić is an Associate Professor in the Department of Mathematics and Computer Science at the University of Basel, Switzerland. From 2016 to 2019 he was an Assistant Professor in the Coordinated Science Laboratory at the University of Illinois at Urbana-Champaign, where he now holds an adjunct appointment. His research interests include signal processing and machine learning. He received the Best Student Paper Award at ICASSP 2011, a Google PhD Fellowship, an EPFL Outstanding Doctoral Thesis Award, and a Google Faculty Research Award. In 2019 the European Research Council (ERC) awarded him a Starting Grant. He used to be the singer and the lead guitarist of Ivan and the Terribles, featuring Martin Vetterli on bass, Paolo Prandoni on everything, and Marta Martinez-Cámara on saxophone.",
+    "talker_image_path": "assets/images/no_pic.png"
+  },
+  {
+    "id": 11,
+    "talk_title": "Hölder Information",
+    "talk_description": "Hölder's inequality naturally leads to a class of information measures. We explore these measures and their properties and illustrate them with applications to the generalization error of learning algorithms, to inference and estimation theory, and to universal prediction. For the latter, a natural extension and improvement of the classic Krichevsky-Trofimov predictor results.",
+    "talker_name": "Michael Gastpar",
+    "talker_bio": "Michael Gastpar is a professor at EPFL, having previously served on the faculty of the University of California at Berkeley (2003-2011). He received his degrees from ETH Zürich, the University of Illinois, and EPFL. He is a Fellow of the IEEE. He received a number of awards, including the 2013 Communications Society & Information Theory Society Joint Paper Award. His research interests are in information theory, signal processing, learning theory, and neuroscience.",
+    "talker_image_path": "assets/images/gastpar.jpg"
+  },
+  {
+    "id": 12,
+    "talk_title": "Graphs in signal processing and graph signal processing (GSP)",
+    "talk_description": "Decades before graph signal processing (GSP) became an active research area, graphs were used in signal and image processing applications. In this talk, I start by providing several examples of these applications, where graphs are (implicit or explicit) models for processing data rather than representations of a physical network (e.g., a road network). Then, using our recent work on graph filterbanks as motivation, I will argue that progress in GSP can open the way for new methods that can be applied to conventional signals.",
+    "talker_name": "Antonio Ortega",
+    "talker_bio": "Antonio Ortega is Dean's Professor of Electrical and Computer Engineering at the University of Southern California (USC). He received his undergraduate and doctoral degrees from Universidad Politécnica de Madrid, Madrid, Spain, and Columbia University, New York, NY. He is a Fellow of the IEEE and EURASIP. He has served as the Editor-in-Chief of the IEEE Transactions of Signal and Information Processing over Networks and as a member of the Board of Governors of the IEEE Signal Processing Society. He has received several paper awards, including the 2016 Signal Processing Magazine award. His recent research focuses on graph signal processing, machine learning, multimedia compression, and wireless sensor networks. He is the author of the book \"Introduction to Graph Signal Processing\" (Cambridge University Press, 2022).",
+    "talker_image_path": "assets/images/ortega.jpg"
+  },
+  {
+    "id": 13,
+    "talk_title": "Lippmann Photography: from museum to the lab and back",
+    "talk_description": "In 1908, Gabriel Lippmann received a Nobel Prize in Physics for his invention of interference-based colour photography. Yet, we now use three-colour photography and Lippmann Photographs, the first hyperspectral images, can be found only in museums. Why?\n\nIn this talk, I will present work done by a large team consisting of researchers from LCAV and Galatea and curators from museum Photo Elysée. I will explain the history and the principle behind Lippmann Photography and show how colour distortions in Lippmann plates can be explained via signal processing phenomena.\n\nI will also talk about our attempts to make Lippmann Photography available to the general public: by printing digital Lippmann photographs and by helping Photo Elysée showcase the historical plates.",
+    "talker_name": "Michalina Pacholska",
+    "talker_bio": "Michalina Pacholska is a research scientist with a short attention span. She holds a Master's degree in Mathematics (2016) with a specialization in topology and set theory and a PhD in computer and communication sciences (2021, at LCAV, of course). Her thesis, titled \"Sampling Geometry and Colour\" covers two areas: unorthodox sampling methods for localization and Lippmann Photography. Her most cited publication is in computational biology. After her PhD, she worked at Improbable on agent-based models and now joined a startup Cosimmetry intending to improve decision-making with tech.\n\nMichalina loves working with interdisciplinary teams at the boundaries of sciences. She also enjoys reading and creating webcomics and playing cooperative board games.",
+    "talker_image_path": "assets/images/pacholska.jpg"
+  },
+  {
+    "id": 14,
+    "talk_title": "The Swiss Science Council: between cacophony and consensus",
+    "talk_description": "I will explain the workings of the Swiss Science Council (SSC), whose president I became in 2021. The SSC is an extra-parliamentary commission that advises the Federal Council on issues related to research, innovation, and higher education.",
+    "talker_name": "Sabine Susstrunk",
+    "talker_bio": "Sabine leads the Image and Visual Representation Laboratory in IC/EPFL since 1999. Her research areas are in computational photography and imaging, computer vision, machine learning, and image quality and aesthetics. She has received several recognition and awards for her research and teaching. She is president of the Swiss Science Council since January 2021.",
+    "talker_image_path": "assets/images/susstrunk.jpg"
+  },
+  {
+    "id": 15,
+    "talk_title": "When we talk about replicability, what are we talking about?",
+    "talk_description": "Lack of replicability in experiments has been a major issue, usually referred to as the reproducibility crisis, in many scientific areas such as biology, chemistry, and artificial intelligence. In this talk, we investigate the notion of replicability in the context of machine learning and characterize the existence of statistically indistinguishable learning algorithms for certain learning problems.",
+    "talker_name": "Amin Karbasi",
+    "talker_bio": "Amin Karbasi is currently an associate professor at Yale University and a staff research scientist at Google.",
+    "talker_image_path": "assets/images/no_pic.png"
   }
 ]
