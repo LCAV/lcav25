@@ -57,7 +57,6 @@ let rendered_index = Mustache.render(index_template, {
   ]).map(e => ({ card_talk: e })),
   section_3_talks: renderSection([
     'Olivier Roy',
-    'Henri Dubois-Ferriere',
     'Michalina Pacholska',
     'Loïc Baboulaz'
   ]).map(e => ({ card_talk: e })),
