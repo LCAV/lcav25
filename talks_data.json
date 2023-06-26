@@ -126,5 +126,13 @@
     "talker_name": "Amin Karbasi",
     "talker_bio": "Amin Karbasi is currently an associate professor at Yale University and a staff research scientist at Google.",
     "talker_image_path": "assets/images/no_pic.png"
-  }
+  },
+{
+"id": 16,
+"talk_title": "Signal Processing for Modeling and Analyzing Human Motion",
+"talk_description": "Motion ability strongly affects the quality of life, especially in the aging population. In this talk, we will explore signal processing research efforts for modeling and analyzing human motion. These efforts aim to enable precise, predictive, personalized, and participatory treatments in the fields of neurology and orthopedics.",
+"talker_name": "Minh N. Do",
+"talker_bio": "Minh N. Do is the Thomas and Margaret Huang Endowed Professor in the Department of Electrical and Computer Engineering at the University of Illinois at Urbana-Champaign. He has affiliations with various departments and institutes within the university and his research interests include signal processing, computational imaging, geometric vision, data science, and smart health.",
+"talker_image_path": "assets/images/minh-do.jpg"
+}
 ]
