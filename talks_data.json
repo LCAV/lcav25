@@ -42,7 +42,7 @@
   {
     "id": 5,
     "talk_title": "Ultrasound Tomography for Early Breast Cancer Detection: A Decade-Long Journey from the Laboratory to the Clinic",
-    "talk_description": "SoftVue is a 3D whole breast ultrasound tomography imaging device recently cleared by the FDA as an adjunct screen modality to mammograph for women with dense breasts. SoftVue is radiation free, operator independent, and does not involve breast compression. For the target population, it has been shown to increase both sensitivity and specificity, hence detecting more cancers at an early stage while decreasing call backs. In this talk, I will present an overview of the technology, and discuss the many technical, clinical, and operational challenges that we have faced on our long journey to bring this medical innovation to the market.",
+    "talk_description": "SoftVue is a 3D whole breast ultrasound tomography imaging device recently cleared by the FDA as an adjunct screen modality to mammograph for women with dense breasts. SoftVue is radiation free, operator independent, and does not involve breast compression. For the target population, it has been shown to increase both sensitivity and specif@icity, hence detecting more cancers at an early stage while decreasing call backs. In this talk, I will present an overview of the technology, and discuss the many technical, clinical, and operational challenges that we have faced on our long journey to bring this medical innovation to the market.",
     "talker_name": "Olivier Roy",
     "talker_bio": "Olivier Roy is a founding member of Delphinus Medical Technologies and its Vice President of Engineering. He leads all technical aspects of the SoftVue development and has been instrumental in converting fundamental research results into medical device innovations driving clinical success and company growth. Prior to joining Delphinus, Dr. Roy was a post-doctoral fellow at the Karmanos Cancer Institute where he designed some of the foundational imaging techniques used in the SoftVue system. He received his Bachelor’s and Master’s Degrees in Communication Systems, and his PhD Degree in Signal Processing at the Swiss Federal Institute of Technology, Lausanne, Switzerland. Dr. Roy has published numerous peer-reviewed conference proceedings, journal papers, and book chapters in the area of signal processing, distributed source coding, beamforming, and ultrasound tomography. He holds several patents related to the SoftVue technology and other medical device innovations.",
     "talker_image_path": "assets/images/olivier_roy.jpg"
@@ -89,8 +89,8 @@
   },
   {
     "id": 11,
-    "talk_title": "Hölder Information",
-    "talk_description": "Hölder's inequality naturally leads to a class of information measures. We explore these measures and their properties and illustrate them with applications to the generalization error of learning algorithms, to inference and estimation theory, and to universal prediction. For the latter, a natural extension and improvement of the classic Krichevsky-Trofimov predictor results.",
+    "talk_title": "The Price of Federalism",
+    "talk_description": "In a federation, numerous autonomous entities operate independently of one another. They share a common objective of collaboratively addressing a more extensive issue. However, each entity possesses only a partial and potentially distorted perspective of the overall situation. This inherent limitation significantly hampers their ability to effectively resolve the problem, even if all entities genuinely and diligently attempt to do so. The extent of this fundamental performance constraint is remarkably stringent. In our analysis, we examine scenarios where each entity's observations are affected by Gaussian noise, and the overarching problem is framed in terms of quadratic loss. We demonstrate that the cost of pursuing a federated approach grows indefinitely with the number of participating entities, without any upper bound.  ",
     "talker_name": "Michael Gastpar",
     "talker_bio": "Michael Gastpar is a professor at EPFL, having previously served on the faculty of the University of California at Berkeley (2003-2011). He received his degrees from ETH Zürich, the University of Illinois, and EPFL. He is a Fellow of the IEEE. He received a number of awards, including the 2013 Communications Society & Information Theory Society Joint Paper Award. His research interests are in information theory, signal processing, learning theory, and neuroscience.",
     "talker_image_path": "assets/images/gastpar.jpg"
@@ -127,12 +127,44 @@
     "talker_bio": "Amin Karbasi is currently an associate professor at Yale University and a staff research scientist at Google.",
     "talker_image_path": "assets/images/no_pic.png"
   },
-{
-"id": 16,
-"talk_title": "Signal Processing for Modeling and Analyzing Human Motion",
-"talk_description": "Motion ability strongly affects the quality of life, especially in the aging population. In this talk, we will explore signal processing research efforts for modeling and analyzing human motion. These efforts aim to enable precise, predictive, personalized, and participatory treatments in the fields of neurology and orthopedics.",
-"talker_name": "Minh N. Do",
-"talker_bio": "Minh N. Do is the Thomas and Margaret Huang Endowed Professor in the Department of Electrical and Computer Engineering at the University of Illinois at Urbana-Champaign. He has affiliations with various departments and institutes within the university and his research interests include signal processing, computational imaging, geometric vision, data science, and smart health.",
-"talker_image_path": "assets/images/minh-do.jpg"
-}
+  {
+    "id": 16,
+    "talk_title": "Signal Processing for Modeling and Analyzing Human Motion",
+    "talk_description": "Motion ability strongly affects the quality of life, especially in the aging population. In this talk, we will explore signal processing research efforts for modeling and analyzing human motion. These efforts aim to enable precise, predictive, personalized, and participatory treatments in the fields of neurology and orthopedics.",
+    "talker_name": "Minh N. Do",
+    "talker_bio": "Minh N. Do is the Thomas and Margaret Huang Endowed Professor in the Department of Electrical and Computer Engineering at the University of Illinois at Urbana-Champaign. He has affiliations with various departments and institutes within the university and his research interests include signal processing, computational imaging, geometric vision, data science, and smart health.",
+    "talker_image_path": "assets/images/minh-do.jpg"
+  },
+  {
+    "id": 17,
+    "talk_title": "Connectedness versus Individualities in Academia",
+    "talk_description": "Academic culture plays a crucial role in shaping research outcomes. This talk explores the importance of promoting multidisciplinary collaborations and the challenges faced in implementing institution-wide policies in academia. The complex nature of different disciplines and their traditions is discussed, highlighting the need for leaders in academia to consider policy changes that foster collective efforts.",
+    "talker_name": "Hyungju (Alan) Park",
+    "talker_bio": "Hyungju (Alan) Park is a distinguished professor of mathematics at Ajou University in Korea. He has a background in physics and mathematics, with a Ph.D. from the University of California, Berkeley. He has held various positions in academia and has served in leadership roles, including as the president of Ajou University. He has also been involved in organizing international mathematical events and has contributed to the field of mathematics through his research and service.",
+    "talker_image_path": "assets/images/hyungju-park.jpg"
+  },
+  {
+    "id": 18,
+    "talk_title": "From Campus to Boot Camp and the Boondocks – University Education for All",
+    "talk_description": "This talk explores the concept of university education beyond the traditional campus setting. It discusses the limitations of online learning and presents alternative formats such as boot camps and study circles. The boot camp format, inspired by the Swedish armed forces, offers intensive and structured training for fast reskilling. On the other hand, study circles draw inspiration from the 19th century Scandinavian tradition, providing accessible education for those in need. The goal is to extend university education to a wider audience and not just those on campus.",
+    "talker_name": "Gunnar Karlsson",
+    "talker_bio": "Gunnar Karlsson is a professor at KTH Royal Institute of Technology in Stockholm, Sweden. He specializes in networking and has been recognized for his contributions to teaching and innovation. He is involved in various initiatives, including the KTH Center for Cyber Defense and Information Security, as well as the KTH Center for Sports Engineering. With a diverse background, he brings a unique perspective to the topic of expanding university education beyond traditional boundaries.",
+    "talker_image_path": "assets/images/gunnar-karlsson.jpg"
+  },
+  {
+    "id": 19,
+    "talk_title": "GirlsCoding.org",
+    "talk_description": "Join Marta Martinez-Camara and Miranda Krekovic as they share their experiences and adventures in different countries, working to encourage girls to explore and learn computer science. They will discuss their efforts in promoting gender diversity in technology and highlight the importance of empowering girls to pursue careers in the field. Through their work, they aim to break down barriers and create inclusive opportunities for girls to thrive in the world of coding.",
+    "talker_name": "Marta Martinez-Camara and Miranda Krekovic",
+    "talker_bio": "Miranda and Marta spent 5 years together at the LCAV. Both of them successfully finished their PhDs and now both work and live in Switzerland. Miranda lives in Zurich and works at Google as a Senior Software engineer, while Marta lives in Bern and is the CXO of Open Systems. In their free time, they like to cycle together the beautiful Swiss mountain passes.",
+    "talker_image_path": "assets/images/marta-miranda.jpg"
+  },
+  {
+    "id": 20,
+    "talk_title": "From Campus to Boot Camp and the Boondocks – University Education for All",
+    "talk_description": "This talk explores the concept of university education beyond the traditional campus setting. It discusses the limitations of online learning and presents alternative formats such as boot camps and study circles. The boot camp format, inspired by the Swedish armed forces, offers intensive and structured training for fast reskilling. On the other hand, study circles draw inspiration from the 19th century Scandinavian tradition, providing accessible education for those in need. The goal is to extend university education to a wider audience and not just those on campus.",
+    "talker_name": "Gunnar Karlsson",
+    "talker_bio": "Gunnar Karlsson is a professor at KTH Royal Institute of Technology in Stockholm, Sweden. He specializes in networking and has been recognized for his contributions to teaching and innovation. He is involved in various initiatives, including the KTH Center for Cyber Defense and Information Security, as well as the KTH Center for Sports Engineering. With a diverse background, he brings a unique perspective to the topic of expanding university education beyond traditional boundaries.",
+    "talker_image_path": "assets/images/gunnar-karlsson.jpg"
+  }
 ]

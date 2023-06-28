@@ -37,15 +37,12 @@ function renderSection (speakers) {
     .map(data => Mustache.render(template_card, data))
 }
 
-console.log('MISSING TALKS : ')
-// 25 speakers
 let rendered_index = Mustache.render(index_template, {
   section_1_talks: renderSection([
     'Richard Baraniuk',
     'Pierre Dillenbourg',
     'Gunnar Karlsson',
-    'Marta Martinez-Camara',
-    'Miranda Krekovic',
+    'Marta Martinez-Camara and Miranda Krekovic',
     'Andrea Ridolfi'
   ]).map(e => ({ card_talk: e })),
   section_2_talks: renderSection([
@@ -71,7 +68,7 @@ let rendered_index = Mustache.render(index_template, {
     'Robert-Jan Smits',
     'Angelika Kalt',
     'Sabine Susstrunk',
-    'Alan Park'
+    'Hyungju (Alan) Park'
   ]).map(e => ({ card_talk: e })),
   section_6_talks: renderSection(['Stéphane Mallat']).map(e => ({
     card_talk: e
@@ -80,10 +77,10 @@ let rendered_index = Mustache.render(index_template, {
 // NOTE / There are 26 databse entries. Pacholska is a duplicate !!
 console.log('List of missing speakers :')
 console.log(speakers_missing)
-console.log(speakers_missing.length)
+console.log("Total : " + speakers_missing.length)
 console.log('List of speakers entries used :')
 console.log(speakers_used)
-console.log(speakers_used.length)
+console.log("Total : " + speakers_used.length)
 console.log('ID used :')
 console.log(
   id_used.sort(function (a, b) {
