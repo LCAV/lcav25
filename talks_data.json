@@ -166,5 +166,45 @@
     "talker_name": "Gunnar Karlsson",
     "talker_bio": "Gunnar Karlsson is a professor at KTH Royal Institute of Technology in Stockholm, Sweden. He specializes in networking and has been recognized for his contributions to teaching and innovation. He is involved in various initiatives, including the KTH Center for Cyber Defense and Information Security, as well as the KTH Center for Sports Engineering. With a diverse background, he brings a unique perspective to the topic of expanding university education beyond traditional boundaries.",
     "talker_image_path": "assets/images/gunnar-karlsson.jpg"
+  },
+  {
+    "id": 21,
+    "talk_title": "How Teaching Skiing Saved Me from My Mid-Life Crisis",
+    "talk_description": "Mid-life crises come in all shapes and sizes. Mine was characterized by a mad desire to learn to ski, and by that I mean to learn to ski 'seriously', like a pro. So what's the best way to learn something 'seriously'? Well, the best way is to teach it.\n\nThe ski instructors' course and a full season as a ski teacher not only introduced me to the beauty of ski carving, but more importantly to the captivating nature of teaching people to ski. Yes indeed, captivating, just like every complex problem which has a beautiful tool for its solution.\nThe complexity comes from the fact that pre-set classes cannot be used, and teaching has to cope with the learning style of the 'student' (visual, auditory, kinesthetic, tactile, and any possible combination of them!).\n\nI would love to share with you a very personal journey in teaching with failures (and painful physical falls), successes (and nice smooth turns), and key notions I was able to apply to my role as a lecturer (and skier).",
+    "talker_name": "Andrea Ridolfi",
+    "talker_bio": "I'm very passionate about learning. Curiosity and desire for knowledge have led me to explore various fields, both indoors and outdoors, and from the applied to the theoretical. My main activity (on paper) consists of teaching Bachelor's courses in communication systems and signal processing at the Bern University of Applied Sciences, as well as a Master's course in statistical signal processing at EPFL. Overall, I try to do my best to make any learning curve as simple as possible, but not simpler.",
+    "talker_image_path": "assets/images/ridolfi.jpg"
+  },
+  {
+    "id": 22,
+    "talk_title": "The Evolving Role of Public Funders",
+    "talk_description": "Funders used to be organizations which received and evaluated proposals and made funding decisions. This is still their core business, but many other things such as adequate policies and science diplomacy are expected and become increasingly important. Funders are part of movements such as Open Science and New Research Culture and often incite or drive change on the national and international level. The current issues are the ethical self-regulation of science but also – in the recent geopolitical context - the increasing steering of funders by (at least some) governments in the western world, where funders enjoyed ample autonomy up to now. I’m happy to share some thought on these topics with you.",
+    "talker_name": "Angelika Kalt",
+    "talker_bio": "Angelika Kalt has a PhD in earth sciences and was professor of petrology and geodynamics at the University of Neuchâtel between 2000 and 2008. Then she joined the SNSF as Deputy Director. Her main tasks in this role were quality assurance, developing evaluation methods, and improving research funding schemes. Angelika was appointed Director of the Swiss National Science Foundation (SNSF) in 2016. She leads the Administrative Offices of the SNSF and is mainly concerned with strategic and political issues and national and international institutional relations. In 2021, Angelika was elected vice president of Science Europe.",
+    "talker_image_path": "assets/images/kalt.jpg"
+  },
+  {
+    "id": 23,
+    "talk_title": "FRI Sensing of Motion",
+    "talk_description": "We focus on 1D time-samples collected by a mobile sensor (e.g., temperature, pressure, magnetic field, etc.). Using a very efficient high-resolution FRI algorithm, we show that tracking the dynamic frequency contents of these samples reveals the 2D motion of the sensor, making it possible to reconstruct its trajectory (up to an affine transformation). Although this theory is developed under the assumption that the 2D field sampled by the sensor satisfies a parametric model (sum of 2D sinusoids), successful empirical results with real textured images suggest a broader validity.",
+    "talker_name": "Thierry Blu",
+    "talker_bio": "Thierry Blu (FIEEE 2012) received engineering diplomas from École Polytechnique (France) in 1986, from Télécom Paris-ENST (France) in 1988, and a Ph.D in electrical engineering from ENST in 1996. Between 1998 and 2007, he was with the Biomedical Imaging Group at the Swiss Federal Institute of Technology (EPFL) in Lausanne, Switzerland. Since 2008, he has been a Professor in the Department of Electronic Engineering, The Chinese University of Hong Kong.",
+    "talker_image_path": "assets/images/thierry-blu.jpg"
+  },
+  {
+    "id": 24,
+    "talk_title": "A Short History of Static, Driving and Flying Agents Hearing the Shapes of Rooms",
+    "talk_description": "Three generations of researchers at LCAV have pursued the task of 'hearing the shape of a room', going from high-end microphones and speakers in Lausanne’s beautiful cathedral to ever smaller and cheaper, and in particular more mobile, hardware, all the way to the modest MEMS microphones in commodity robotic platforms. This talk will give an overview of this long adventure spanning many years with its ups and downs, and more than one time of passers-by thinking that the fire alarm has gone off.",
+    "talker_name": "Frederike Duembgen",
+    "talker_bio": "Frederike is currently a postdoctoral researcher at the Robotics Institute of the University of Toronto. She received her PhD with a thesis entitled 'Blind as a bat: spatial perception without sight' in November 2021 from LCAV, EPFL, where she had prior received her Bachelor and Master's in mechanical engineering with specialization in control and mechatronics. Her research has ranged from novel localization methods, in particular acoustic, radio-frequency, and ultra-wideband localization, to, most recently, globally optimal methods for robotics.",
+    "talker_image_path": "assets/images/no_pic.png"
+  },
+  {
+    "id": 23,
+    "talk_title": "Education: The Future is Open",
+    "talk_description": "A grassroots movement is sweeping through the academic world. The 'open access movement' is based on a set of intuitions that are shared by a remarkably wide range of academics: that knowledge should be free and open to use and re-use; that collaboration should be easier, not harder; that people should receive credit and kudos for contributing to education and research; and that concepts and ideas are linked in unusual and surprising ways and not the simple linear forms that traditional media present. This talk will discuss the past, present, and future of the open access textbook movement from the perspective of the OpenStax platform and publishing initiative. Special attention will be paid to the role that new technologies like AI can play in improving the quality and reach of education.",
+    "talker_name": "Richard Baraniuk",
+    "talker_bio": "Richard G. Baraniuk is the C. Sidney Burrus Professor of Electrical and Computer Engineering at Rice University, a member of the Digital Signal Processing (DSP) research group, and Founder/Director of OpenStax. He is also a joint faculty member in the Rice departments of Computer Science and Statistics.",
+    "talker_image_path": "assets/images/richard-baraniuk.jpg"
   }
 ]
