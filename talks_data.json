@@ -154,7 +154,7 @@
   {
     "id": 19,
     "talk_title": "GirlsCoding.org",
-    "talk_description": "Join Marta Martinez-Camara and Miranda Krekovic as they share their experiences and adventures in different countries, working to encourage girls to explore and learn computer science. They will discuss their efforts in promoting gender diversity in technology and highlight the importance of empowering girls to pursue careers in the field. Through their work, they aim to break down barriers and create inclusive opportunities for girls to thrive in the world of coding.",
+    "talk_description": "Join Marta Martinez-Camara & Miranda Krekovic as they share their experiences and adventures in different countries, working to encourage girls to explore and learn computer science. They will discuss their efforts in promoting gender diversity in technology and highlight the importance of empowering girls to pursue careers in the field. Through their work, they aim to break down barriers and create inclusive opportunities for girls to thrive in the world of coding.",
     "talker_name": "Marta Martinez-Camara and Miranda Krekovic",
     "talker_bio": "Miranda and Marta spent 5 years together at the LCAV. Both of them successfully finished their PhDs and now both work and live in Switzerland. Miranda lives in Zurich and works at Google as a Senior Software engineer, while Marta lives in Bern and is the CXO of Open Systems. In their free time, they like to cycle together the beautiful Swiss mountain passes.",
     "talker_image_path": "assets/images/marta-miranda.jpg"
@@ -200,7 +200,7 @@
     "talker_image_path": "assets/images/no_pic.png"
   },
   {
-    "id": 23,
+    "id": 25,
     "talk_title": "Education: The Future is Open",
     "talk_description": "A grassroots movement is sweeping through the academic world. The 'open access movement' is based on a set of intuitions that are shared by a remarkably wide range of academics: that knowledge should be free and open to use and re-use; that collaboration should be easier, not harder; that people should receive credit and kudos for contributing to education and research; and that concepts and ideas are linked in unusual and surprising ways and not the simple linear forms that traditional media present. This talk will discuss the past, present, and future of the open access textbook movement from the perspective of the OpenStax platform and publishing initiative. Special attention will be paid to the role that new technologies like AI can play in improving the quality and reach of education.",
     "talker_name": "Richard Baraniuk",
