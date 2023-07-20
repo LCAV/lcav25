@@ -206,5 +206,14 @@
     "talker_name": "Richard Baraniuk",
     "talker_bio": "Richard G. Baraniuk is the C. Sidney Burrus Professor of Electrical and Computer Engineering at Rice University, a member of the Digital Signal Processing (DSP) research group, and Founder/Director of OpenStax. He is also a joint faculty member in the Rice departments of Computer Science and Statistics.",
     "talker_image_path": "assets/images/richard-baraniuk.jpg"
+  },
+  {
+    "id": 26,
+    "talk_title": "Security and Anti-Fraud Defenses at Scale in the Age of AI",
+    "talk_description": "Over the last decade, machine learning (ML) has become a powerful tool in security and counter abuse programs. With vast datasets, advanced algorithms, and increased computing power, ML presented transformative opportunities. However, aligning ML theory with practical applications in counter abuse poses challenges that affect its effectiveness. In this talk, we will explore the obstacles in feature engineering, data collection, and model training, while also highlighting emerging opportunities brought about by the ongoing artificial intelligence revolution.",
+    "talker_name": "Juri Ranieri",
+    "talker_bio": "Juri Ranieri is a Staff Engineering Analyst Manager at Google. With expertise in the application of machine learning in security and anti-fraud measures, he has played a pivotal role in advancing the field. Juri's work focuses on leveraging AI technologies to enhance security defenses at scale, making the digital world safer for users and organizations.",
+    "talker_image_path": "assets/images/ranieri/jpg"
+
   }
 ]
