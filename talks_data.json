@@ -81,11 +81,11 @@
   },
   {
     "id": 10,
-    "talk_title": "Tu quoque, Ivane, fili mi?",
+    "talk_title": "Tu quoque fili mi?",
     "talk_description": "An Lcaviste who flirts with non-anthropoid intelligence may experience a unique sense of shame. But there is a prize for the shameless. I will talk about (possible) examples in hearing shapes of planets, understanding the mechanics of graph neural networks, and learning to extrapolate analog models of the world from digital signals.",
     "talker_name": "Ivan Dokmanić",
     "talker_bio": "Ivan Dokmanić is an Associate Professor in the Department of Mathematics and Computer Science at the University of Basel, Switzerland. From 2016 to 2019 he was an Assistant Professor in the Coordinated Science Laboratory at the University of Illinois at Urbana-Champaign, where he now holds an adjunct appointment. His research interests include signal processing and machine learning. He received the Best Student Paper Award at ICASSP 2011, a Google PhD Fellowship, an EPFL Outstanding Doctoral Thesis Award, and a Google Faculty Research Award. In 2019 the European Research Council (ERC) awarded him a Starting Grant. He used to be the singer and the lead guitarist of Ivan and the Terribles, featuring Martin Vetterli on bass, Paolo Prandoni on everything, and Marta Martinez-Cámara on saxophone.",
-    "talker_image_path": "assets/images/no_pic.png"
+    "talker_image_path": "assets/images/dokmanic.jpg"
   },
   {
     "id": 11,
