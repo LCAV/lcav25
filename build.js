@@ -39,7 +39,6 @@ function renderSection (speakers) {
 
 let rendered_index = Mustache.render(index_template, {
   section_1_talks: renderSection([
-    'Richard Baraniuk',
     'Pierre Dillenbourg',
     'Gunnar Karlsson',
     'Marta Martinez-Camara and Miranda Krekovic',
@@ -56,7 +55,8 @@ let rendered_index = Mustache.render(index_template, {
   section_3_talks: renderSection([
     'Olivier Roy',
     'Michalina Pacholska',
-    'Loïc Baboulaz'
+    'Loïc Baboulaz',
+    'Juri Ranieri'
   ]).map(e => ({ card_talk: e })),
   section_4_talks: renderSection([
     'Minh N. Do',

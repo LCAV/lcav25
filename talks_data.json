@@ -200,20 +200,11 @@
     "talker_image_path": "assets/images/no_pic.png"
   },
   {
-    "id": 25,
-    "talk_title": "Education: The Future is Open",
-    "talk_description": "A grassroots movement is sweeping through the academic world. The 'open access movement' is based on a set of intuitions that are shared by a remarkably wide range of academics: that knowledge should be free and open to use and re-use; that collaboration should be easier, not harder; that people should receive credit and kudos for contributing to education and research; and that concepts and ideas are linked in unusual and surprising ways and not the simple linear forms that traditional media present. This talk will discuss the past, present, and future of the open access textbook movement from the perspective of the OpenStax platform and publishing initiative. Special attention will be paid to the role that new technologies like AI can play in improving the quality and reach of education.",
-    "talker_name": "Richard Baraniuk",
-    "talker_bio": "Richard G. Baraniuk is the C. Sidney Burrus Professor of Electrical and Computer Engineering at Rice University, a member of the Digital Signal Processing (DSP) research group, and Founder/Director of OpenStax. He is also a joint faculty member in the Rice departments of Computer Science and Statistics.",
-    "talker_image_path": "assets/images/richard-baraniuk.jpg"
-  },
-  {
     "id": 26,
     "talk_title": "Security and Anti-Fraud Defenses at Scale in the Age of AI",
     "talk_description": "Over the last decade, machine learning (ML) has become a powerful tool in security and counter abuse programs. With vast datasets, advanced algorithms, and increased computing power, ML presented transformative opportunities. However, aligning ML theory with practical applications in counter abuse poses challenges that affect its effectiveness. In this talk, we will explore the obstacles in feature engineering, data collection, and model training, while also highlighting emerging opportunities brought about by the ongoing artificial intelligence revolution.",
     "talker_name": "Juri Ranieri",
     "talker_bio": "Juri Ranieri is a Staff Engineering Analyst Manager at Google. With expertise in the application of machine learning in security and anti-fraud measures, he has played a pivotal role in advancing the field. Juri's work focuses on leveraging AI technologies to enhance security defenses at scale, making the digital world safer for users and organizations.",
-    "talker_image_path": "assets/images/ranieri/jpg"
-
+    "talker_image_path": "assets/images/ranieri.jpg"
   }
 ]
