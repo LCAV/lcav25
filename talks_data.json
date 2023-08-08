@@ -206,5 +206,13 @@
     "talker_name": "Juri Ranieri",
     "talker_bio": "Juri Ranieri is a Staff Engineering Analyst Manager at Google. With expertise in the application of machine learning in security and anti-fraud measures, he has played a pivotal role in advancing the field. Juri's work focuses on leveraging AI technologies to enhance security defenses at scale, making the digital world safer for users and organizations.",
     "talker_image_path": "assets/images/ranieri.jpg"
+  },
+  {
+    "id": 27,
+    "talk_title": "Turn the Light On, Look at the Waves and Listen to the Language",
+    "talk_description": "This talk narrates the journey of an unconventional scientific collaboration in computational imaging that evolved into a startup focusing on optical computing. The story takes a recent twist, leading to the exploration of generative AI and large language models. Discover how these diverse fields intersect and drive innovation.",
+    "talker_name": "Laurent Daudet",
+    "talker_bio": "Laurent Daudet is the Co-CEO of LightOn, a Paris-based startup he co-founded in 2016. With a background as a Professor of Physics at Université Paris Cité, he brings a wealth of knowledge to the intersection of physics and technology. Laurent holds degrees from Ecole Normale Superieure and Marseille University, and has held academic positions across the globe. He is also a co-author of the upcoming graphic novel 'Dream Machine,' exploring generative AI and its implications.",
+    "talker_image_path": "assets/images/daudet.jpg"
   }
 ]

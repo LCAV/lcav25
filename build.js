@@ -56,7 +56,8 @@ let rendered_index = Mustache.render(index_template, {
     'Olivier Roy',
     'Michalina Pacholska',
     'Loïc Baboulaz',
-    'Juri Ranieri'
+    'Juri Ranieri',
+      'Laurent Daudet'
   ]).map(e => ({ card_talk: e })),
   section_4_talks: renderSection([
     'Minh N. Do',
