@@ -9,7 +9,7 @@ if (!fs.existsSync(BUILD_DIR)) {
   fs.mkdirSync(BUILD_DIR)
 }
 
-const index_template = fs.readFileSync('index.html', 'utf-8')
+let index_template = fs.readFileSync('index.html', 'utf-8')
 const template_card = fs.readFileSync('templates/card_talk.mustache', 'utf-8')
 const talks_data = fs.readJsonSync('talks_data.json')
 
@@ -37,42 +37,67 @@ function renderSection (speakers) {
     .map(data => Mustache.render(template_card, data))
 }
 
+function render_time(starting_time_hour, starting_time_min, index) {
+  let minutes = (starting_time_min + 20 * index)
+  let hour = starting_time_hour
+  if (minutes >= 60) {
+    hour += 1
+  }
+  minutes = minutes % 60
+  if (minutes === 0) {
+    minutes = "00"
+  }
+    return `${hour}:${minutes}`
+}
+
+let speakers_session_1 = [
+  'Pierre Dillenbourg',
+  'Gunnar Karlsson',
+  'Marta Martinez-Camara and Miranda Krekovic',
+  'Andrea Ridolfi'
+];
+let speakers_session_2 = [
+  'Ivan Dokmanić',
+  'Pier Luigi Dragotti',
+  'Patrick Van de Walle',
+  'Thierry Blu',
+  'Michael Gastpar',
+];
+let speakers_session_3 = [
+  'Michalina Pacholska',
+  'Loïc Baboulaz',
+  'Juri Ranieri',
+  'Laurent Daudet',
+  'Olivier Roy',
+];
+let speakers_session_4 = [
+  'Frederike Duembgen',
+  'Vivek Goyal',
+  'Minh N. Do',
+  'Antonio Ortega',
+  'Yue M. Lu',
+  'Amin Karbasi'
+];
+let speakers_session_5 = [
+  'Hyungju Alan Park',
+  'Angelika Kalt',
+  'Robert-Jan Smits',
+  'Sabine Susstrunk',
+];
+let speakers_section_6 = ['Stéphane Mallat'];
 let rendered_index = Mustache.render(index_template, {
-  section_1_talks: renderSection([
-    'Pierre Dillenbourg',
-    'Gunnar Karlsson',
-    'Marta Martinez-Camara and Miranda Krekovic',
-    'Andrea Ridolfi'
-  ]).map(e => ({ card_talk: e })),
-  section_2_talks: renderSection([
-    'Ivan Dokmanić',
-    'Pier Luigi Dragotti',
-    'Patrick Van de Walle',
-    'Thierry Blu',
-    'Michael Gastpar',
-    'Frederike Duembgen'
-  ]).map(e => ({ card_talk: e })),
-  section_3_talks: renderSection([
-    'Olivier Roy',
-    'Michalina Pacholska',
-    'Loïc Baboulaz',
-    'Juri Ranieri',
-      'Laurent Daudet'
-  ]).map(e => ({ card_talk: e })),
-  section_4_talks: renderSection([
-    'Minh N. Do',
-    'Vivek Goyal',
-    'Antonio Ortega',
-    'Yue M. Lu',
-    'Amin Karbasi'
-  ]).map(e => ({ card_talk: e })),
-  section_5_talks: renderSection([
-    'Robert-Jan Smits',
-    'Angelika Kalt',
-    'Sabine Susstrunk',
-    'Hyungju (Alan) Park'
-  ]).map(e => ({ card_talk: e })),
-  section_6_talks: renderSection(['Stéphane Mallat']).map(e => ({
+  section_1_speakers: speakers_session_1.map((e,i) => ({ name: e , time: `${render_time(10, 10, i)}`})),
+  section_1_talks: renderSection(speakers_session_1).map(e => ({ card_talk: e })),
+  section_2_speakers: speakers_session_2.map((e,i) => ({ name: e , time: `${render_time(13, 30, i)}`})),
+  section_2_talks: renderSection(speakers_session_2).map(e => ({ card_talk: e })),
+  section_3_speakers: speakers_session_3.map((e,i) => ({ name: e , time: `${render_time(16, 0, i)}`})),
+  section_3_talks: renderSection(speakers_session_3).map(e => ({ card_talk: e })),
+  section_4_speakers: speakers_session_4.map((e,i) => ({ name: e , time: `${render_time(10, 0, i)}`})),
+  section_4_talks: renderSection(speakers_session_4).map(e => ({ card_talk: e })),
+  section_5_speakers : speakers_session_5.map((e,i) => ({ name: e , time: `${render_time(14, 0, i)}`})),
+  section_5_talks: renderSection(speakers_session_5).map(e => ({ card_talk: e })),
+  section_6_speakers: speakers_section_6.map((e,i) => ({ name: e , time: `${render_time(16, 0, i)}`})),
+  section_6_talks: renderSection(speakers_section_6).map(e => ({
     card_talk: e
   }))
 })

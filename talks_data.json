@@ -139,8 +139,8 @@
     "id": 17,
     "talk_title": "Connectedness versus Individualities in Academia",
     "talk_description": "Academic culture plays a crucial role in shaping research outcomes. This talk explores the importance of promoting multidisciplinary collaborations and the challenges faced in implementing institution-wide policies in academia. The complex nature of different disciplines and their traditions is discussed, highlighting the need for leaders in academia to consider policy changes that foster collective efforts.",
-    "talker_name": "Hyungju (Alan) Park",
-    "talker_bio": "Hyungju (Alan) Park is a distinguished professor of mathematics at Ajou University in Korea. He has a background in physics and mathematics, with a Ph.D. from the University of California, Berkeley. He has held various positions in academia and has served in leadership roles, including as the president of Ajou University. He has also been involved in organizing international mathematical events and has contributed to the field of mathematics through his research and service.",
+    "talker_name": "Hyungju Alan Park",
+    "talker_bio": "Hyungju Alan Park is a distinguished professor of mathematics at Ajou University in Korea. He has a background in physics and mathematics, with a Ph.D. from the University of California, Berkeley. He has held various positions in academia and has served in leadership roles, including as the president of Ajou University. He has also been involved in organizing international mathematical events and has contributed to the field of mathematics through his research and service.",
     "talker_image_path": "assets/images/hyungju-park.jpg"
   },
   {
@@ -212,7 +212,7 @@
     "talk_title": "Turn the Light On, Look at the Waves and Listen to the Language",
     "talk_description": "This talk narrates the journey of an unconventional scientific collaboration in computational imaging that evolved into a startup focusing on optical computing. The story takes a recent twist, leading to the exploration of generative AI and large language models. Discover how these diverse fields intersect and drive innovation.",
     "talker_name": "Laurent Daudet",
-    "talker_bio": "Laurent Daudet is the Co-CEO of LightOn, a Paris-based startup he co-founded in 2016. With a background as a Professor of Physics at Université Paris Cité, he brings a wealth of knowledge to the intersection of physics and technology. Laurent holds degrees from Ecole Normale Superieure and Marseille University, and has held academic positions across the globe. He is also a co-author of the upcoming graphic novel 'Dream Machine,' exploring generative AI and its implications.",
+    "talker_bio": "Laurent Daudet is the Co-CEO of LightOn, a Paris-based startup he co-founded in 2015. With a background as a Professor of Physics at Université Paris Cité, he brings a wealth of knowledge to the intersection of physics and technology. Laurent holds degrees from Ecole Normale Superieure and Marseille University, and has held academic positions across the globe. He is also a co-author of the upcoming graphic novel 'Dream Machine,' exploring generative AI and its implications.",
     "talker_image_path": "assets/images/daudet.jpg"
   }
 ]

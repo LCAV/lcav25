@@ -123,8 +123,6 @@
             <div class="row justify-content-around">
                 <div class="col-md-5 p-3 bg-gray-100 ">
                     <h3 class="text-center">Thursday August 24th 2023</h3>
-
-
                     <table class="table">
                         <thead>
                         <tr>
@@ -142,14 +140,23 @@
                             <td>Welcome talk by <b>Martin Vetterli </b></td>
                         </tr>
                         <tr class="bg-gray-200 rounded border border-danger">
-                            <td>10:00</td>
+                            <td class="bg-gray-300 rounded">10:00</td>
                             <td>
                                 <div class="d-flex justify-content-center">
                                     <a class="h6" href="#session_1">Session 1: Education</a>
                                 </div>
                                 Chair: <b>Pierre Vandergheynst</b><br>
-                                Speakers: <b>Pierre Dillenbourg, Gunnar Karlsson, Marta
-                                Martinez-Camara and Miranda Krekovic, Andrea Ridolfi</b>
+                                <div class="mb-1 mt-1">Speakers:</div>
+                                <div class="row">
+                                    <div class="text-muted col-sm-2">10:00</div>
+                                    <div class="col-sm-10">Martin Vetterli (welcome message)</div>
+                                </div>
+                                {{#section_1_speakers}}
+                                <div class="row">
+                                    <div class="text-muted col-sm-2">{{time}}</div>
+                                    <div class="col-sm-10">{{name}}</div>
+                                </div>
+                                {{/section_1_speakers}}
                             </td>
                         </tr>
                         <tr>
@@ -157,14 +164,19 @@
                             <td>Standing Lunch</td>
                         </tr>
                         <tr class="bg-gray-200 rounded border border-danger">
-                            <td>13:30</td>
+                            <td class="bg-gray-300" >13:30</td>
                             <td>
                                 <div class="d-flex justify-content-center">
                                     <a class="h6" href="#session_2">Session 2: Research</a>
                                 </div>
                                 Chair: <b>Patrick Thiran</b><br>
-                                Speakers: <b>Ivan Dokmanic, Pierluigi Dragotti, Patrick Van de Walle, Thierry Blu,
-                                Michael Gastpar</b>
+                                <div class="mb-1 mt-1">Speakers:</div>
+                                {{#section_2_speakers}}
+                                <div class="row">
+                                    <div class="text-muted col-sm-2">{{time}}</div>
+                                    <div class="col-sm-10">{{name}}</div>
+                                </div>
+                                {{/section_2_speakers}}
                             </td>
                         </tr>
                         <tr>
@@ -172,14 +184,20 @@
                             <td>Coffee Break</td>
                         </tr>
                         <tr class="bg-gray-200 rounded border border-danger">
-                            <td>16:00</td>
+                            <td class="bg-gray-300">16:00</td>
                             <td>
                                 <div class="d-flex justify-content-center">
                                     <a class="h6 text-center" href="#session_3">Session 3: Innovation and Tech
                                         Transfer</a>
                                 </div>
                                 Chair: <b>Karen Adam</b><br>
-                                Speakers: <b>Olivier Roy, Michalina Pacholska, Loïc Baboulaz, Juri Ranieri, Laurent Daudet</b>
+                                <div class="mb-1 mt-1">Speakers:</div>
+                                {{#section_3_speakers}}
+                                <div class="row">
+                                    <div class="text-muted col-sm-2">{{time}}</div>
+                                    <div class="col-sm-10">{{name}}</div>
+                                </div>
+                                {{/section_3_speakers}}
                             </td>
                         </tr>
                         <tr>
@@ -190,10 +208,9 @@
                     </table>
 
                 </div>
-                <div class="col-md-5 pt-3 bg-gray-100">
+
+                <div class="col-md-5 p-3 bg-gray-100">
                     <h3 class="text-center">Friday August 25th 2023</h3>
-
-
                     <table class="table">
                         <thead>
                         <tr>
@@ -207,13 +224,22 @@
                             <td>Opening and Coffee</td>
                         </tr>
                         <tr class="bg-gray-200 rounded border border-danger">
-                            <td>9:30</td>
+                            <td class="bg-gray-300">9:30</td>
                             <td>
                                 <div class="d-flex justify-content-center">
                                     <a class="h6" href="#session_4">Session 4: Research</a>
                                 </div>
                                 Chair: <b>Rüdiger Urbanke</b><br>
-                                Speakers: <b>Minh Do, Vivek Goyal, Antonio Ortega, Yue Lu, Amin Karbasi</b>
+                                <div class="row">
+                                    <div class="text-muted col-sm-2">9:50</div>
+                                    <div class="col-sm-10">Martin Vetterli (opening remarks)</div>
+                                </div>
+                                {{#section_4_speakers}}
+                                <div class="row">
+                                    <div class="text-muted col-sm-2">{{time}}</div>
+                                    <div class="col-sm-10">{{name}}</div>
+                                </div>
+                                {{/section_4_speakers}}
                             </td>
                         </tr>
                         <tr>
@@ -221,13 +247,18 @@
                             <td>Standing Lunch</td>
                         </tr>
                         <tr class="bg-gray-200 rounded border border-danger">
-                            <td>13:30</td>
+                            <td class="bg-gray-300">13:30</td>
                             <td>
                                 <div class="d-flex justify-content-center">
                                     <a class="h6" href="#session_5">Session 5: Science Policy</a>
                                 </div>
                                 Chair: <b>Jan Hesthaven<br></b>
-                                Speakers: <b>Robert-Jan Smits, Angelika Kalt, Sabine Süsstrunk, Alan Park</b>
+                                {{#section_5_speakers}}
+                                <div class="row">
+                                    <div class="text-muted col-sm-2">{{time}}</div>
+                                    <div class="col-sm-10">{{name}}</div>
+                                </div>
+                                {{/section_5_speakers}}
                             </td>
                         </tr>
                         <tr>
@@ -235,12 +266,17 @@
                             <td>Coffee Break</td>
                         </tr>
                         <tr class="bg-gray-200 rounded border border-danger">
-                            <td>16:00</td>
+                            <td class="bg-gray-300">16:00</td>
                             <td>
                                 <div class="d-flex justify-content-center">
                                     <a class="h6" href="#final_keynote">Final Keynote</a>
                                 </div>
-                                <b>Stephane Mallat</b>
+                                {{#section_6_speakers}}
+                                <div class="row">
+                                    <div class="text-muted col-sm-2">{{time}}</div>
+                                    <div class="col-sm-10">{{name}}</div>
+                                </div>
+                                {{/section_6_speakers}}
                             </td>
                         </tr>
                         <tr>
@@ -253,7 +289,6 @@
                         </tr>
                         </tbody>
                     </table>
-
 
                 </div>
             </div>
