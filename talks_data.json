@@ -115,7 +115,7 @@
     "id": 14,
     "talk_title": "The Swiss Science Council: between cacophony and consensus",
     "talk_description": "I will explain the workings of the Swiss Science Council (SSC), whose president I became in 2021. The SSC is an extra-parliamentary commission that advises the Federal Council on issues related to research, innovation, and higher education.",
-    "talker_name": "Sabine Susstrunk",
+    "talker_name": "Sabine Süsstrunk",
     "talker_bio": "Sabine leads the Image and Visual Representation Laboratory in IC/EPFL since 1999. Her research areas are in computational photography and imaging, computer vision, machine learning, and image quality and aesthetics. She has received several recognition and awards for her research and teaching. She is president of the Swiss Science Council since January 2021.",
     "talker_image_path": "assets/images/susstrunk.jpg"
   },
@@ -154,8 +154,8 @@
   {
     "id": 19,
     "talk_title": "GirlsCoding.org",
-    "talk_description": "Join Marta Martinez-Camara & Miranda Krekovic as they share their experiences and adventures in different countries, working to encourage girls to explore and learn computer science. They will discuss their efforts in promoting gender diversity in technology and highlight the importance of empowering girls to pursue careers in the field. Through their work, they aim to break down barriers and create inclusive opportunities for girls to thrive in the world of coding.",
-    "talker_name": "Marta Martinez-Camara and Miranda Krekovic",
+    "talk_description": "Join Marta Martinez-Camara & Miranda Kreković as they share their experiences and adventures in different countries, working to encourage girls to explore and learn computer science. They will discuss their efforts in promoting gender diversity in technology and highlight the importance of empowering girls to pursue careers in the field. Through their work, they aim to break down barriers and create inclusive opportunities for girls to thrive in the world of coding.",
+    "talker_name": "Marta Martinez-Camara and Miranda Kreković",
     "talker_bio": "Miranda and Marta spent 5 years together at the LCAV. Both of them successfully finished their PhDs and now both work and live in Switzerland. Miranda lives in Zurich and works at Google as a Senior Software engineer, while Marta lives in Bern and is the CXO of Open Systems. In their free time, they like to cycle together the beautiful Swiss mountain passes.",
     "talker_image_path": "assets/images/marta-miranda.jpg"
   },
@@ -195,7 +195,7 @@
     "id": 24,
     "talk_title": "A Short History of Static, Driving and Flying Agents Hearing the Shapes of Rooms",
     "talk_description": "Three generations of researchers at LCAV have pursued the task of 'hearing the shape of a room', going from high-end microphones and speakers in Lausanne’s beautiful cathedral to ever smaller and cheaper, and in particular more mobile, hardware, all the way to the modest MEMS microphones in commodity robotic platforms. This talk will give an overview of this long adventure spanning many years with its ups and downs, and more than one time of passers-by thinking that the fire alarm has gone off.",
-    "talker_name": "Frederike Duembgen",
+    "talker_name": "Frederike Dümbgen",
     "talker_bio": "Frederike is currently a postdoctoral researcher at the Robotics Institute of the University of Toronto. She received her PhD with a thesis entitled 'Blind as a bat: spatial perception without sight' in November 2021 from LCAV, EPFL, where she had prior received her Bachelor and Master's in mechanical engineering with specialization in control and mechatronics. Her research has ranged from novel localization methods, in particular acoustic, radio-frequency, and ultra-wideband localization, to, most recently, globally optimal methods for robotics.",
     "talker_image_path": "assets/images/no_pic.png"
   },

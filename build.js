@@ -53,7 +53,7 @@ function render_time(starting_time_hour, starting_time_min, index) {
 let speakers_session_1 = [
   'Pierre Dillenbourg',
   'Gunnar Karlsson',
-  'Marta Martinez-Camara and Miranda Krekovic',
+  'Marta Martinez-Camara and Miranda Kreković',
   'Andrea Ridolfi'
 ];
 let speakers_session_2 = [
@@ -71,7 +71,7 @@ let speakers_session_3 = [
   'Olivier Roy',
 ];
 let speakers_session_4 = [
-  'Frederike Duembgen',
+  'Frederike Dümbgen',
   'Vivek Goyal',
   'Minh N. Do',
   'Antonio Ortega',
@@ -82,7 +82,7 @@ let speakers_session_5 = [
   'Hyungju Alan Park',
   'Angelika Kalt',
   'Robert-Jan Smits',
-  'Sabine Susstrunk',
+  'Sabine Süsstrunk',
 ];
 let speakers_section_6 = ['Stéphane Mallat'];
 let rendered_index = Mustache.render(index_template, {
