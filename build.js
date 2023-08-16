@@ -59,7 +59,7 @@ let speakers_session_1 = [
 let speakers_session_2 = [
   'Ivan Dokmanić',
   'Pier Luigi Dragotti',
-  'Patrick Van de Walle',
+  'Patrick Vandewalle',
   'Thierry Blu',
   'Michael Gastpar',
 ];
