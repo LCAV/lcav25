@@ -19,8 +19,8 @@
     "id": 2,
     "talk_title": "From super-resolution to occlusion inpainting - a story of filling missing pixels",
     "talk_description": "This talk will cover several methods to estimate missing pixel information. First, I will discuss super-resolution imaging, where the goal is to interpolate intermediate pixels to generate a higher resolution image. Next, we shift our attention to 3D, adding depth information to images. That enables us to create novel views from a different perspective, allowing a viewer to perceive images in 3D. However, novel view synthesis brings new pixels to be filled in: occlusion areas. Occlusion inpainting is the technique to fill in areas of pixels that were invisible from the original point of view. This results in more naturally perceived 3D images.",
-    "talker_name": "Patrick Van de Walle",
-    "talker_bio": "Patrick Van de Walle received a MSc degree in electrical engineering from KU Leuven (2001), and a PhD degree from EPFL on super-resolution imaging (2006). From 2007 to 2018, he worked at Philips Research as a senior research scientist. He is now an associate professor at KU Leuven. His current research focuses on 3D processing, reconstruction, computer vision and AR/VR.",
+    "talker_name": "Patrick Vandewalle",
+    "talker_bio": "Patrick Vandewalle received a MSc degree in electrical engineering from KU Leuven (2001), and a PhD degree from EPFL on super-resolution imaging (2006). From 2007 to 2018, he worked at Philips Research as a senior research scientist. He is now an associate professor at KU Leuven. His current research focuses on 3D processing, reconstruction, computer vision and AR/VR.",
     "talker_image_path": "assets/images/patrick.jpg"
   },
   {
