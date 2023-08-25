@@ -79,9 +79,9 @@ let speakers_session_4 = [
   'Amin Karbasi'
 ];
 let speakers_session_5 = [
+    'Robert-Jan Smits',
   'Hyungju Alan Park',
   'Angelika Kalt',
-  'Robert-Jan Smits',
   'Sabine Süsstrunk',
 ];
 let speakers_section_6 = ['Stéphane Mallat'];
